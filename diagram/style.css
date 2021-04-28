@@ -1,0 +1,23 @@
+body {
+    width: 800px;
+    margin: 50px;
+    padding: 0px;
+    display: flex;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);
+}
+
+div {
+    height: 500px;
+    background-color: darkblue;
+    bottom: 0;
+    position: relative;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    margin-left: -25px;
+}

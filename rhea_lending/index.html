@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./sourse/logoS.png" />
+    <title>Rhea</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <div class="container">
+            <div class="header__inner _anim-items">
+                <div class="logo">
+                    <a href="#"><img src="./sourse/logo.png" alt="logo"></a>
+                </div>
+                <nav class="navigation" id="menuLinks">
+                    <a class="nav__link" href="#home">Home</a>
+                    <a class="nav__link" href="#featuredVideosContainer">Video</a>
+                    <a class="nav__link" href="#travelCategoriesContainer">Destionary</a>
+                    <a class="nav__link" href="#bookingContainer">Booking</a>
+                    <a class="nav__link" id="singIn" href="#">Sing In</a>
+                    <a id="menu" href="#" class="icon">&#9776;</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+            <div class="contentHeader">
+                <h1 class="header__title _anim-items">Thavel around the world</h1>
+                <p class="textHeader _anim-items">Plan and book your perfect trip trio with expert advice, travel tios, destination information and <br>inspiration from us.
+                </p>
+                <button class="buttonSingUp _anim-items" href="#">Sing Up Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="placeToTravel" id="placeToTravelContainer">
+        <div class="container">
+            <div class="wrapper">
+                <div class="slider _anim-items">
+                    <div id="frame">
+                        <div id="carousel">
+                            <div class="slide animate">
+                                <div class="price">$440</div>
+                                <img class="img" src="./sourse/placesTravel/slide5.jpg" />
+                                <div class="ratingAndTerm">
+                                    <div class="rating-mini">
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                    <div class="term"> 8 days tour</div>
+                                </div>
+                            </div>
+                            <div class="slide animate">
+                                <div class="price">$700</div>
+                                <img class="img" src="./sourse/placesTravel/slide4.jpg" />
+                                <div class="ratingAndTerm">
+                                    <div class="rating-mini">
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                    </div>
+                                    <div class="term"> 4 days tour</div>
+                                </div>
+                            </div>
+                            <div class="slide animate">
+                                <div class="price">$543</div>
+                                <img class="img" src="./sourse/placesTravel/Rectangle 2 copy 2.png" />
+                                <div class="ratingAndTerm">
+                                    <div class="rating-mini">
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                    <div class="term"> 9 days tour</div>
+                                </div>
+                            </div>
+                            <div class="slide  animate active">
+                                <div class="price">$640</div>
+                                <img class="img" src="./sourse/placesTravel/Layer 4 copy.png" />
+                                <div class="ratingAndTerm">
+                                    <div class="rating-mini">
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                    <div class="term"> 7 days tour</div>
+                                </div>
+                            </div>
+                            <div class="slide animate">
+                                <div class="price">$560</div>
+                                <img class="img" src="./sourse/placesTravel/Rectangle 2.png" />
+                                <div class="ratingAndTerm">
+                                    <div class="rating-mini">
+                                        <span class="star active"></span>
+                                        <span class="star active"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </div>
+                                    <div class="term"> 5 days tour</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <button id="left" onclick="left()">&larr;</button>
+                        <button id="right" onclick="right()">&rarr;</button>
+                    </div>
+                </div>
+                <div class="textPlace _anim-items">
+                    <h2 class="title">Amazing places to enjoy your travel</h2>
+                    <p class="locationDescription _anim-items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque laborum maxime possimus, sunt, d oloribus dolore modi ex, laudantium qui corrupti s int harum! Sit temporibus, excepturi praesentium repellendus et enim nam!</p>
+                    <button class="buttonExplore _anim-items" href="#">Explore</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="featuredVideos _anim-items" id="featuredVideosContainer">
+        <div class="container">
+            <div class="textVideo">
+                <h2 class="titles _anim-items">Featured videos</h2>
+                <p class="locationDescription _anim-items">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, ducimus? Soluta, doloremque recusandae temporibus assumenda quae, accusamus quasi molestiae perferendis qui ex quas mollitia iure dolorem nemo voluptatem id. Possimus
+                    neque necessitatibus illo iure beatae. Ea molestiae temporibus, nulla nisi magnam ducimus quo nesciunt quasi quidem delectus, consectetur provident rerum.</p>
+
+            </div>
+            <figure id="video_player">
+                <div id="video_container">
+                    <video controls poster="http://thenewcode.com/assets/images/vid-glacier.jpg" playsinline>
+                  <source src="http://thenewcode.com/assets/videos/glacier.mp4" type="video/mp4">
+                  <source src="http://thenewcode.com/assets/videos/glacier.webm" type="video/webm">
+              </video>
+                </div>
+                <figcaption>
+                    <div class="videoBlock">
+                        <a class="linkVideo" href="http://thenewcode.com/assets/videos/glacier.mp4" class="currentvid">
+                            <div class="playlist">
+                                <img src="http://thenewcode.com/assets/images/vid-glacier.jpg" alt="Athabasca Glacier">
+                                <div>
+                                    <p class="videoTitle">When go to Maldives</p>
+                                    <p class="timeVideo"> 0:05</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="videoBlock">
+                        <a class="linkVideo" href="http://thenewcode.com/assets/videos/lake.mp4">
+                            <div class="playlist">
+                                <img src="http://thenewcode.com/assets/images/vid-lake.jpg" alt="Athabasca Lake">
+                                <div>
+                                    <p class="videoTitle">When go to Maldives</p>
+                                    <p class="timeVideo"> 0:05</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="videoBlock">
+                        <a class="linkVideo" href="http://thenewcode.com/assets/videos/mountain.mp4">
+                            <div class="playlist">
+                                <img src="http://thenewcode.com/assets/images/vid-mountain.jpg" alt="Mountain">
+                                <div>
+                                    <p class="videoTitle">When go to Maldives</p>
+                                    <p class="timeVideo"> 0:05</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="videoBlock">
+                        <a class="linkVideo" href="http://thenewcode.com/assets/videos/mountain.mp4">
+                            <div class="playlist">
+                                <img src="http://thenewcode.com/assets/images/vid-mountain.jpg" alt="Mountain">
+                                <div>
+                                    <p class="videoTitle">When go to Maldives</p>
+                                    <p class="timeVideo"> 0:05</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="videoBlock">
+                        <a class="linkVideo" href="http://thenewcode.com/assets/videos/mountain.mp4">
+                            <div class="playlist">
+                                <img src="http://thenewcode.com/assets/images/vid-mountain.jpg" alt="Mountain">
+                                <div>
+                                    <p class="videoTitle">When go to Maldives</p>
+                                    <p class="timeVideo"> 0:05</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="videoBlock">
+                        <a class="linkVideo" href="http://thenewcode.com/assets/videos/mountain.mp4">
+                            <div class="playlist">
+                                <img src="http://thenewcode.com/assets/images/vid-mountain.jpg" alt="Mountain">
+                                <div>
+                                    <p class="videoTitle">When go to Maldives</p>
+                                    <p class="timeVideo"> 0:05</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="travelCategories" id="travelCategoriesContainer">
+        <div class="categoriesHeader">
+            <h2 class="titles _anim-items">
+                Travel categories
+            </h2>
+            <p class="locationDescription _anim-items">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates, pariatur iusto amet cupiditate earum ipsam eius ducimus nesciunt magni dolorum explicabo in eaque dolores quibusdam! Modi nulla tempora maiores! Dolorum, eius laboriosam culpa magni
+                nulla architecto exercitationem cupiditate veniam rerum temporibus cum animi enim odit ducimus, perferendis error qui!
+            </p>
+        </div>
+        <div class="sliderCategories _anim-items">
+            <div class="slideCat">
+                <img src="./sourse/categories/slide1.jpg" alt="" srcset="">
+            </div>
+            <div class="slideCat">
+                <img src="./sourse/categories/slide5.jpg" alt="" srcset="">
+            </div>
+            <div class="slideCat">
+                <img src="./sourse/categories/slide2.png" alt="" srcset="">
+                <p class="textOnCategories">Backpacking</p>
+            </div>
+            <div class="slideCat active">
+                <img src="./sourse/categories/slide3.jpg" alt="" srcset="">
+                <p class="textOnCategories">Beaches, coast and island</p>
+            </div>
+            <div class="slideCat">
+                <img src="./sourse/categories/slide4.png" alt="" srcset="">
+                <p class="textOnCategories">Art and culture</p>
+            </div>
+            <div class="slideCat">
+                <img src="./sourse/categories/slide6.jpg" alt="" srcset="">
+                <p class="textOnCategories">Balloons</p>
+            </div>
+        </div>
+        <div id="controlsSliderCat">
+            <button id="left" onclick="left()">&larr;</button>
+            <button id="right" onclick="right()">&rarr;</button>
+        </div>
+    </div>
+    <div class="experiences" id="experiencesContainer">
+        <div class="container">
+            <div class="experiencesHeader">
+                <div class="titles _anim-items"> Traveller's experiences</div>
+            </div>
+            <div class="slideshow-reviews _anim-items">
+                <div class="mySlidesReviews fade">
+                    <p>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam voluptatum a minus necessitatibus mollitia placeat dolore molestiae earum optio, corporis hic! Saepe accusantium corrupti vero esse pariatur cum impedit mollitia
+                        voluptatem, tenetur, ullam soluta?
+                    </p>
+                    <img class="authorPhoto" src="./sourse/review/client1.png">
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">Donquixote Law</p>
+                        <p class="textPositionAuthor">Treveller</p>
+                    </div>
+                </div>
+                <div class="mySlidesReviews fade">
+                    <p>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam voluptatum a minus necessitatibus mollitia placeat dolore molestiae earum optio, corporis hic! Saepe accusantium corrupti vero esse pariatur cum impedit mollitia
+                        voluptatem, tenetur, ullam soluta?
+                    </p>
+                    <img class="authorPhoto" src="./sourse/review/client2.jpg">
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">PITER JAKSON</p>
+                        <p class="textPositionAuthor">Treveller</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesReviews fade">
+                    <p>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam voluptatum a minus necessitatibus mollitia placeat dolore molestiae earum optio, corporis hic! Saepe accusantium corrupti vero esse pariatur cum impedit mollitia
+                        voluptatem, tenetur, ullam soluta?
+                    </p>
+                    <img class="authorPhoto" src="./sourse/review/client3.jpg">
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">ROSA STARK</p>
+                        <p class="textPositionAuthor">Treveller</p>
+                    </div>
+                </div>
+                <div class="mySlidesReviews fade">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus temporibus sequi! Minima magnam maiores, consectetur natus, molestias enim a voluptatibus nemo nam neque harum corporis earum optio. Nihil nesciunt, laudantium
+                        quis.
+                    </p>
+                    <img class="authorPhoto" src="./sourse/review/client4.jpg">
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">JANE GALADRIEL</p>
+                        <p class="textPositionAuthor">Treveller</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="controlExperienceSlider">
+                <a class="prevReviews _anim-items" onclick="plusSlidesReviews(-1)">&larr;</a>
+                <a class="nextReviews _anim-items" onclick="plusSlidesReviews(1)">&rarr;</a>
+            </div>
+            <div class="control _anim-items">
+                <span class="dash activeDash" onclick="currentSlideReviews(1)"></span>
+                <span class="dash" onclick="currentSlideReviews(2)"></span>
+                <span class="dash" onclick="currentSlideReviews(3)"></span>
+                <span class="dash" onclick="currentSlideReviews(4)"></span>
+            </div>
+        </div>
+    </div>
+    <div class="booking" id="bookingContainer">
+        <div class="container">
+            <div class="bookingHeader">
+                <h3 class="bookingText _anim-items">
+                    WE WILL SEE YOU
+                </h3>
+                <h2 class="enjoy _anim-items">
+                    Enjoy 30% Off On First Trip
+                </h2>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="destinations _anim-items">
+                <select>
+                    <option hidden>Destinations</option>
+                    <option>London</option>
+                    <option>Kyiv</option>
+                    <option>Berlin</option>
+                    <option>Paris</option>
+                    <option>Praha</option>
+                    <option>Warszawa</option>
+                    <option>Oslo</option>
+                    <option>Roma</option>
+                </select>
+            </div>
+            <div class="package _anim-items">
+                <select>
+                    <option hidden>Package</option>
+                    <option>Package 1</option>
+                    <option>Package 2</option>
+                </select>
+            </div>
+            <div class="date _anim-items">
+                <input type="date" class="calendar" name="date" value="Dates" />
+            </div>
+            <button class="buttonBookNow _anim-items" href="#">Book Now</button>
+        </div>
+    </div>
+    <footer class=" _anim-items">
+        <div class="footerLinks">
+            <a class="footerLink" href="#home">Home</a>
+            <a class="footerLink" href="#featuredVideosContainer">Video</a>
+            <a class="footerLink" href="#travelCategoriesContainer">Destionary</a>
+            <a class="footerLink" href="#bookingContainer">Booking</a>
+            <a href="#">Contact</a>
+            <a href="#">Pricing</a>
+            <a class="openModalWindow" id="footerModal" data-modal="modalPrivacy">Privacy Policy</a>
+            <div id="modalPrivacy" class="modal">
+                <div class="modal-content" id="modalPrivacy">
+                    <span class="close" data-modal="modalPrivacy">&times;</span>
+                    <p>You agree to give your soul</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="footerText">Copyright 2014-2020 <samp class="about">  Rhea - Travel Around The World</samp></p>
+        </div>
+        <div class="social">
+            <a href="https://www.youtube.com/"><img src="./sourse/icon/youtube.png" alt="youtube"></a>
+            <a href="https://www.facebook.com/"><img src="./sourse/icon/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com/"><img src="./sourse/icon/twitter.png" alt="twitter"></a>
+            <a href="mailto:ask@nikolaysxa@gmail.com"><img src="./sourse/icon/mail.png" alt="mail"></a>
+
+
+
+
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./sourse/logoTajam.png" />
+
+    <title>Tajam</title>
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <div class="header" id="headerContainer">
+        <nav id="navbar">
+            <a href="#headerContainer"><img class="logo" src="./sourse/logoTajam.png" alt="logo"></a>
+            <a href="#headerContainer"><img class="tajamText" src="./sourse/tajam.png" alt="tajam"></a>
+            <div class="links" id="menuLinks">
+                <a id="home" href="#headerContainer">HOME</a>
+                <a id="about" href="#aboutContainer">ABOUT</a>
+                <a id="expertise" href="#expertiseContainer">EXPERTISE</a>
+                <a id="teams" href="#teamsContainer">TEAMS</a>
+                <a id="works" href="#worksContainer">WORKS</a>
+                <a id="people_say" href="#peopleSayContainer">PEOPLE SAY</a>
+                <a id="contact" href="#contactContainer">CONTACT</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+
+        </nav>
+
+    </div>
+    <div class="content">
+        <div class="main">
+            <input type="checkbox" class="read-more-checker" id="read-more-checker" />
+            <h1 class="textAgency">We Are Awesome Creative Agency</h1>
+            <hr width="50" size="2" color="#00e0d0" />
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <p>
+                        #1 This is Photohop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor alique. Aenean sollicitudin, lorem <br> quis bipedum auctor, nisi elit consequat ipsum, nec sagittis sem hibh id elit. Duis sed odio sit amet nibn<br>                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                    </p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto totam facilis provident ipsam? Accusamus nesciunt aliquid autem enim repellendus, sint soluta quia consectetur aperiam nihil debitis aspernatur veniam corrupti vel?
+                    </p>
+                </div>
+
+                <div class="mySlides fade">
+                    <p>
+                        #2 This is Photohop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor alique. Aenean sollicitudin, lorem <br> quis bipedum auctor, nisi elit consequat ipsum, nec sagittis sem hibh id elit. Duis sed odio sit amet nibn<br>                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat modi, veniam, cumque exercitationem quae est consequuntur officiis, dignissimos porro enim reiciendis. Nulla molestias iure repellendus incidunt debitis consectetur magnam dolores deleniti
+                        iusto odio. Ad nobis in voluptatem aspernatur, cupiditate sunt! Odio quisquam facere earum officia voluptatum, quaerat molestias natus obcaecati eveniet voluptatibus, nisi velit a vitae? Repellendus quidem consequatur dicta, nisi
+                        necessitatibus culpa unde rerum molestias, fuga qui itaque vitae debitis eaque iste et doloremque! Cupiditate, omnis. Numquam a repellat veritatis rem recusandae animi enim iusto ullam architecto soluta. Quia aut nulla fuga ducimus
+                        voluptatem voluptate quisquam dicta tenetur nesciunt!
+                    </p>
+                </div>
+
+                <div class="mySlides fade">
+                    <p>
+                        #3 This is Photohop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor alique. Aenean sollicitudin, lorem <br> quis bipedum auctor, nisi elit consequat ipsum, nec sagittis sem hibh id elit. Duis sed odio sit amet nibn<br>                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit laboriosam tempora optio voluptas pariatur harum quaerat totam nam facere nihil est, asperiores voluptate commodi. Pariatur corrupti quisquam repellat quia quidem dicta nam vitae repellendus
+                        quas nemo suscipit provident recusandae id minima aperiam dolorum excepturi, earum aspernatur ducimus perferendis veritatis ratione? Nam voluptatibus, quia voluptatem veniam sequi necessitatibus? Eligendi, officia voluptatibus?
+                    </p>
+                </div>
+                <div class="mySlides fade">
+                    <p>
+                        #4 This is Photohop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor alique. Aenean sollicitudin, lorem <br> quis bipedum auctor, nisi elit consequat ipsum, nec sagittis sem hibh id elit. Duis sed odio sit amet nibn<br>                        vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate rem veritatis odio ipsum maiores perferendis enim voluptate aliquam? Distinctio eaque facere amet maxime porro magnam, illo doloremque fugiat sapiente tempore natus accusantium iure rem
+                        modi saepe laborum culpa dolorum ab?
+                    </p>
+                </div>
+                <br>
+            </div>
+            <div class="bottom"></div>
+            <label for="read-more-checker" class="read-more-button"></label>
+            <div class="mainDot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <div class="about" id="aboutContainer">
+            <img src="./sourse/aboutLogo.png" alt="logo" height="230">
+            <div class="ourStory">
+                <h1>OUR STORY</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ipsam sunt suscipit ratione maxime pariatur molestiae natus perspiciatis ab autem commodi dolorum vero, ad expedita. Facilis adipisci quaerat alias est!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ipsam sunt suscipit ratione maxime pariatur molestiae natus perspiciatis ab autem commodi dolorum vero, ad expedita. Facilis adipisci quaerat alias est!
+                    <span id="dots"></span>
+                    <span id="more">
+                    MORE Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus illo quaerat enim dolor impedit quis hic eaque totam 
+                    sed sapiente perspiciatis, nesciunt voluptatem animi perferendis
+                    dolore praesentium laborum quia in ipsam incidunt iste omnis
+                    natus nisi pariatur? Tenetur, necessitatibus quo ab velit 
+                    veniam delectus blanditiis ex pariatur culpa autem itaque 
+                    rerum officiis qui suscipit exercitationem vero labore sunt 
+                    nulla nihil soluta inventore corrupti, iusto praesentium.
+                    Iste sed aliquam atque velit?
+                    </span>
+                </p>
+                <button id="showMoreOurStory" onclick="readMore()">LEARN MORE</button>
+            </div>
+        </div>
+        <div class="video" id="video1">
+            <!--<img class="playVideo" src="./sourse/PlayIcon.png" alt="Play Icon">-->
+            <iframe class="youVi" width="360px" height="240px" src="https://www.youtube.com/embed/SDea7рlaHD4E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
+
+        </div>
+        <div class="expertise" id="expertiseContainer">
+            <h1>EXPERTISE</h1>
+            <p class="textAddInformation">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, vel!</p>
+            <hr width="50" size="2" color="#c6c4c9" />
+            <div class="elementExpertise">
+                <img src="./sourse/webDesign&development.png" alt="Web Design">
+                <p class="textHeadingExpertise">WEB DESIGN & DEVELOPMENT</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sint quo debitis est aliquid neque.</p>
+            </div>
+            <div class="elementExpertise">
+                <img src="./sourse/brandingIdentity.png" alt="Branding Identity">
+                <p class="textHeadingExpertise">BRANDING IDENTITY</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sint quo debitis est aliquid neque.</p>
+            </div>
+            <div class="elementExpertise">
+                <img src="./sourse/mobileApp.png" alt="Mobile App">
+                <p class="textHeadingExpertise">MOBILE APP</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sint quo debitis est aliquid neque.</p>
+            </div>
+            <hr class="separator" width="57%" size="1" color="#ebebeb" />
+            <div class="elementExpertise">
+                <img src="./sourse/optimization.png" alt="Optimization">
+                <p class="textHeadingExpertise">SEARCH ENGINE OPTIMIZATION </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sint quo debitis est aliquid neque.</p>
+            </div>
+            <div class="elementExpertise">
+                <img src="./sourse/gameDevelop.png" alt="Game Development">
+                <p class="textHeadingExpertise">GAME DEVELOPMENT</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sint quo debitis est aliquid neque.</p>
+            </div>
+            <div class="elementExpertise">
+                <img src="./sourse/withLove.png" alt="Made With Love">
+                <p class="textHeadingExpertise">MADE WITH LOVE</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sint quo debitis est aliquid neque.</p>
+            </div>
+        </div>
+        <div class="teams" id="teamsContainer">
+            <h2>MEET OUR AMAZING TEAM</h2>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, numquam</h4>
+            <hr width="50" size="2" color="#c6c4c9" />
+            <div class="staff">
+                <div class="teamMember">
+                    <img class="photoTeamMember" src="./sourse/teamMember.png" alt="Team Member">
+                    <div class="employesBlock">
+                        <p class="textEmloyeesName">SEMF UCUK</p>
+                        <p class="textEmloyeesPosition">CEO & FOUNDER</p>
+                    </div>
+                </div>
+                <div class="teamMember">
+                    <img class="photoTeamMember" src="./sourse/teamMember.png" alt="Team Member">
+                    <div class="employesBlock">
+                        <p class="textEmloyeesName">DIK ADALIN</p>
+                        <p class="textEmloyeesPosition">ENGINEERING</p>
+                    </div>
+                </div>
+                <hr class="separatorTeamMembers">
+                <div class="teamMember">
+                    <img class="photoTeamMember" src="./sourse/teamMember.png" alt="Team Member">
+                    <div class="employesBlock">
+                        <p class="textEmloyeesName">JENG KOL</p>
+                        <p class="textEmloyeesPosition">DESIGNER</p>
+                    </div>
+                </div>
+                <div class="teamMember">
+                    <img class="photoTeamMember" src="./sourse/teamMember.png" alt="Team Member">
+                    <div class="employesBlock">
+                        <p class="textEmloyeesName">PET ROMAK</p>
+                        <p class="textEmloyeesPosition">MARKETING</p>
+                    </div>
+                </div>
+            </div>
+            <p id="joinUs">Become part of our dream team, let's join us!</p>
+            <div>
+                <button class="openModalWindow" id="vacancies" data-modal="modalVacancies" onclick="">WE ARE HIRING</button>
+                <div id="modalVacancies" class="modal">
+                    <div class="modal-content" id="modalVacancies">
+                        <span class="close" data-modal="modalVacancies">&times;</span>
+                        <div class="tabs">
+                            <div class="tabs__header">
+                                <div class="tab-nav-item selected" data-tab="tab-1">vacancies 1</div>
+                                <div class="tab-nav-item" data-tab="tab-2">vacancies 2</div>
+                                <div class="tab-nav-item" data-tab="tab-3">vacancies 3</div>
+                            </div>
+                            <div class="tabs__body">
+                                <div class="tab__content tab-1 selected">
+                                    #1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus perferendis voluptatum quos doloribus vel maiores necessitatibus tenetur. Eius odit, illo beatae atque quas corrupti, velit laborum sunt unde suscipit hic officia earum neque illum
+                                    nihil quasi labore rerum tempore quod dicta doloribus. Aut ipsa, dolorum repellat pariatur ipsam ut iusto?
+                                </div>
+                                <div class="tab__content tab-2">
+                                    #2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, architecto quaerat! Tempore eligendi magnam distinctio nihil ipsam fugit tempora mollitia iusto, perspiciatis neque consequuntur hic possimus, dolores quia nesciunt aliquam quasi
+                                    commodi placeat quas architecto dignissimos. Adipisci ea accusantium tempore sapiente totam, est perferendis consectetur debitis esse cupiditate necessitatibus repellat qui mollitia unde dicta veritatis ipsa corporis
+                                    labore neque odio expedita id repellendus. Quaerat labore fugiat tempore ut sunt quidem.
+                                </div>
+                                <div class="tab__content tab-3">
+                                    #3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officiis ullam ipsam temporibus repellendus doloribus assumenda illum corrupti atque fuga quae, in error dolor necessitatibus quod quidem laboriosam repellat cupiditate.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="works" id="worksContainer">
+            <div class="topRow">
+                <p class="textOurWorks">OUR WORKS</p>
+                <a class="textSeeAll" href="https://dribbble.com/" target="_blank">
+                    <p>See all Project in dribbble&gt;</p>
+                </a>
+            </div>
+            <div class="firstRow">
+                <div class="testWork" style="background-color: rgb(102, 102, 102);">
+                </div>
+                <div class="testWork" style="background-color: rgb(71, 71, 71);">
+                </div>
+                <div class="testWork" style="background-color: rgb(163, 163, 163);">
+                </div>
+                <div class="testWork" style="background-color: rgb(77, 77, 77);">
+                </div>
+                <div class="testWork" style="background-color: rgb(177, 177, 180);">
+                </div>
+                <div class="testWork" style="background-color: rgb(124, 124, 124);">
+                </div>
+                <div class="testWork" style="background-color: rgb(182, 182, 182);">
+                </div>
+            </div>
+            <div class="secondRow">
+                <div class="testWork" style="background-color: rgb(160, 160, 160);">
+                </div>
+                <div class="testWork" style="background-color: rgb(124, 124, 124);">
+                </div>
+                <div class="testWork" style="background-color: rgb(85, 85, 85);">
+                </div>
+                <div class="testWork" style="background-color: rgb(189, 189, 189);">
+                </div>
+                <div class="testWork" style="background-color: rgb(54, 54, 54);">
+                </div>
+                <div class="testWork" style="background-color: rgb(163, 162, 162);">
+                </div>
+                <div class="testWork" style="background-color: rgb(70, 70, 70);">
+                </div>
+            </div>
+            <input type="checkbox" class="load-more-checker" id="load-more-checker" />
+            <div class="thirdRow">
+                <a class="openModalWindow" data-modal="project1">
+                    <img src="./sourse/works/project1.jpg" height="350px">
+                </a>
+                <div id="project1" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project1">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project1.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project2">
+                    <img src="./sourse/works/project2.jpg" height="350px"></a>
+                <div id="project2" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project2">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project2.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project3">
+                    <img id="test" src="./sourse/works/project3.png" height="350px">
+                </a>
+                <div id="project3" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project3">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project3.png">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project4">
+                    <img class="projectInModal" src="./sourse/works/project4.jpg" height="350px">
+                </a>
+                <div id="project4" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project4">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project4.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project5">
+                    <img src="./sourse/works/project5.jpg" height="350px">
+                </a>
+                <div id="project5" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project5">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project5.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project6">
+                    <img src="./sourse/works/project6.jpg" height="350px">
+                </a>
+                <div id="project6" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project6">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project6.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project7">
+                    <img src="./sourse/works/project7.jpg" height="350px">
+                </a>
+                <div id="project7" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project7">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project7.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project8">
+                    <img src="./sourse/works/project8.jpg" height="350px">
+                </a>
+                <div id="project8" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project8">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project8.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project9">
+                    <img src="./sourse/works/project9.jpg" height="350px">
+                </a>
+                <div id="project9" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project9">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project9.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project10">
+                    <img src="./sourse/works/project10.jpg" height="350px">
+                </a>
+                <div id="project10" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project10">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project10.jpg">
+                    </div>
+                </div>
+                <a class="openModalWindow" data-modal="project11">
+                    <img src="./sourse/works/project11.png" height="350px">
+                </a>
+                <div id="project11" class="modal">
+                    <div class="modal-content" id="project">
+                        <span class="close" data-modal="project11">&times;</span>
+                        <p>*this is just an example taken from the internet</p>
+                        <img class="projectInModal" src="./sourse/works/project11.png">
+                    </div>
+                </div>
+            </div>
+            <label for="load-more-checker" class="load-more-button"></label>
+        </div>
+        <div class="peopleSay" id="peopleSayContainer">
+            <img class="quote" src="./sourse/quote.png" alt="c">
+            <div class="slideshow-reviews">
+                <div class="mySlidesReviews fade">
+                    <p>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam voluptatum a minus necessitatibus mollitia placeat dolore molestiae earum optio, corporis hic! Saepe accusantium corrupti vero esse pariatur cum impedit mollitia
+                        voluptatem, tenetur, ullam soluta?
+                    </p>
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">ANN HALK</p>
+                        <p class="textPositionAuthor">CEO TENGKURAP</p>
+                    </div>
+                </div>
+                <div class="mySlidesReviews fade">
+                    <p>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam voluptatum a minus necessitatibus mollitia placeat dolore molestiae earum optio, corporis hic! Saepe accusantium corrupti vero esse pariatur cum impedit mollitia
+                        voluptatem, tenetur, ullam soluta?
+                    </p>
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">PITER JAKSON</p>
+                        <p class="textPositionAuthor">CEO TENGKURAP</p>
+                    </div>
+                </div>
+
+                <div class="mySlidesReviews fade">
+                    <p>3 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquam voluptatum a minus necessitatibus mollitia placeat dolore molestiae earum optio, corporis hic! Saepe accusantium corrupti vero esse pariatur cum impedit mollitia
+                        voluptatem, tenetur, ullam soluta?
+                    </p>
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">ROSA STARK</p>
+                        <p class="textPositionAuthor">CEO TENGKURAP</p>
+                    </div>
+                </div>
+                <div class="mySlidesReviews fade">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus temporibus sequi! Minima magnam maiores, consectetur natus, molestias enim a voluptatibus nemo nam neque harum corporis earum optio. Nihil nesciunt, laudantium
+                        quis.
+                    </p>
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">JANE GALADRIEL</p>
+                        <p class="textPositionAuthor">CEO TENGKURAP</p>
+                    </div>
+                </div>
+                <div class="mySlidesReviews fade">
+                    <p class="textRevievs">1Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni ullam, laboriosam nam corrupti totam facere! Sapiente consequatur assumenda laborum, incidunt veritatis fugit atque velit ratione quia sed quis in porro. Lorem ipsum
+                        dolor sit amet.
+                    </p>
+                    <div class="reviewAuthorBlock">
+                        <p class="textreviewAuthor">TOM SMITH</p>
+                        <p class="textPositionAuthor">CEO TENGKURAP</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="control">
+                <a class="prevReviews" onclick="plusSlidesReviews(-1)">&#10094;</a>
+                <a class="nextReviews" onclick="plusSlidesReviews(1)">&#10095;</a>
+                <span onclick="currentSlideReviews(1)"><img class="person" src="./sourse/revievs/revievs4.png"></span>
+                <span onclick="currentSlideReviews(2)"><img class="person" src="./sourse/revievs/revievs3.png"></span>
+                <span onclick="currentSlideReviews(3)"><img class="person" src="./sourse/revievs/revievs5.png"></span>
+                <span onclick="currentSlideReviews(4)"><img class="person" src="./sourse/revievs/revievs2.png"></span>
+                <span onclick="currentSlideReviews(5)"><img class="person" src="./sourse/revievs/revievs1.png"></span>
+
+            </div>
+        </div>
+        <div class="contact" id="contactContainer">
+            <div class="left">
+                <h3 class="writeToUs">
+                    GIVE US A GOOD NEWS
+                </h3>
+                <form action="/" method="POST" id="form">
+                    <div class="pole">
+                        <label>
+                            <input class="textForm" type="text" name="name" placeholder="Name">
+                        </label>
+                    </div>
+                    <div class="pole">
+                        <label>
+                            <input class="textForm" type="text" name="email" placeholder="Email">
+                        </label>
+                    </div>
+                    <div class="pole">
+                        <label>
+                            <input class="textForm" type="text" name="subject" placeholder="Subject">
+                        </label>
+                    </div>
+                    <div class="pole">
+                        <label>
+                            <textarea  class="massageFor1m"  name="comment" placeholder="Your Massage"></textarea>
+                        </label>
+                    </div>
+                    <button class="submit" type="submit">SUBMIT</button>
+                </form>
+            </div>
+            <div class="client">
+                <h3>OUR HAPPY CLIENT</h3>
+                <div class="logoClients">
+                    <div class="leftLogo">
+                        <div class="zaraLogo">
+                            <img src="./sourse/client/Zara_Logo.svg.png" alt="zara logo">
+                        </div>
+                        <div class="barneysLogo">
+                            <img src="./sourse/client/1280px-Barneys_New_York_Logo.svg.png" alt="Barneys logo">
+                        </div>
+                        <div class="calvinKlineLogo">
+                            <img src="./sourse/client/Calvin_klein_logo.svg.png" alt="Calvine Cline logo">
+                        </div>
+                        <div class="converseLogo">
+                            <img src="./sourse/client/Converse_logo.svg.png" alt="Converse logo">
+                        </div>
+                        <div class="levsLogo">
+                            <img src="./sourse/client/1280px-Levi's_logo.svg.png" alt="Levi`s logo">
+                        </div>
+                    </div>
+                    <div class="rightLogo">
+                        <div class="mangoLogo">
+                            <img src="./sourse/client/Logo_of_Mango_(new).svg.png" alt="mango logo">
+                        </div>
+                        <div class="gucciLogo">
+                            <img src="./sourse/client/1280px-Gucci_Logo.svg.png" alt="gucci logo">
+                        </div>
+                        <div class="nikeLogo">
+                            <img src="./sourse/client/1280px-Logo_NIKE.svg.png" alt="Nike logo">
+                        </div>
+                        <div class="pumaLogo">
+                            <img src="./sourse/client/Puma_Logo.svg.png" alt="Puma logo">
+                        </div>
+                        <div class="billaBongLogo">
+                            <img src="./sourse/client/Billabong.svg.png" alt="billa Bong logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contentFooter">
+            <div class="leftColumFooter">
+                <img class="logo" src="./sourse/logoTajam.png" alt="logo">
+                <img class="tajamText" src="./sourse/tajam.png" alt="tajam">
+                <p class="footerText">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, tempore quia consequuntur sunt commodi eaque blanditiis esse quo voluptatem natus suscipit accusantium temporibus distinctio velit ipsam doloribus?
+                </p>
+            </div>
+            <div class="middleColumFooter">
+                <p class="footerHeading">OUR STUDIO</p>
+                <div class="contactFooter">
+                    <img class="icon" src="./sourse/location.png" alt="location" height="19px">
+                    <p>
+                        <a class="location" href="https://www.google.com/maps/place/PT+Tajam/@-6.1325864,106.7068389,15z/data=!4m5!3m4!1s0x0:0xae437d46318fa6ac!8m2!3d-6.1301829!4d106.709643"> 
+                                Ruko cucruk, Jl. Radio luar dalem jos No.12-13, Kalideres - Jakarta Barat 11480 - Indonesia
+                            </a>
+                    </p>
+                </div>
+                <div class="contactFooter">
+                    <img class="phoneIcon" src="./sourse/phoneIcon.png" alt="Phone Icone" height="19px">
+                    <a class="number" href="tel:+622122243333">+(62) 21-2224 3333</a>
+                </div>
+            </div>
+            <div class="rigthColumFooter">
+                <p class="footerHeading">STAY IN TOUCH</p>
+                <div class="subscribeBlock">
+                    <form action="" method="post" id="MyForm">
+                        <label>
+                            <input class="subscribe" type="text" name="email" placeholder="Subscribe our newsletter" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        </label>
+                    </form>
+                    <input class="openModalWindow" data-modal="modalSubscribe" type="image" id="btnSubscribe" src="./sourse/btnSubscribe.png" alt="subscribe">
+                    <div id="modalSubscribe" class="modal">
+                        <div class="modal-content" id="modalSubscribe">
+                            <span class="close" data-modal="modalSubscribe">&times;</span>
+                            <p>if implement this feature, your email
+                                <p id="yourEmail"></p> will receive news</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="socialMedia">
+                    <a href="https://www.facebook.com/" style="margin-right: 8px;" target="_blank"><img src="./sourse/Social Media/facebook.png" alt="facebook"></a>
+                    <a href="https://twitter.com" style="margin-right: 8px;" target="_blank"><img src="./sourse/Social Media/twitter.png" alt="twitter"></a>
+                    <a href="https://dribbble.com/" style="margin-right: 8px;" target="_blank"><img src="./sourse/Social Media/dribbble.png" alt="dribbble"></a>
+                    <a href="https://www.instagram.com/" style="margin-right: 8px;" target="_blank"><img src="./sourse/Social Media/instagram.png" alt="instagram"></a>
+                    <a href="https://www.google.com/" style="margin-right: 8px;" target="_blank"><img src="./sourse/Social Media/gplus.png" alt="gplus"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./sourse/Social Media/youtube.png" alt="youtube"></a>
+                </div>
+            </div>
+            <div class="downFloor">
+                <a class="openModalWindow" data-modal="modalHelp">HELP</a>
+                <div id="modalHelp" class="modal">
+                    <div class="modal-content" id="modalHelp">
+                        <span class="close" data-modal="modalHelp">&times;</span>
+                        <p>We can help You :)</p>
+                    </div>
+                </div>
+                <a class="openModalWindow" id="footerModal" data-modal="modalCondition">TERMS & CONDITION</a>
+                <div id="modalCondition" class="modal">
+                    <div class="modal-content" id="modalCondition">
+                        <span class="close" data-modal="modalCondition">&times;</span>
+                        <p>Conditions :)</p>
+                    </div>
+                </div>
+                <a class="openModalWindow" id="footerModal" data-modal="modalPrivacy">PRIVACY</a>
+                <div id="modalPrivacy" class="modal">
+                    <div class="modal-content" id="modalPrivacy">
+                        <span class="close" data-modal="modalPrivacy">&times;</span>
+                        <p>You agree to give your soul</p>
+                    </div>
+                </div>
+                <p class="textCopiright">Copyright &copy; 2015 - Tajem Creative</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
